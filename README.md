@@ -34,18 +34,25 @@ Use len() to find the total words.
 
 Developed by:  Mahalakshmi.k
 
+
 Register Number: 22009204
+
 
 
 import sys
 
+
 fp= open(sys.argv[1])
+
 
 data=fp.read()
 
+
 words=data.split()
 
+
 print("Total Words:",len(words))
+
 
 
 ### OUTPUT:
